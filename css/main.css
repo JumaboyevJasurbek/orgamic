@@ -286,7 +286,11 @@ body {
   margin-left: -80px;
   background-color: #76A713;
   cursor: pointer;
-}   
+}
+
+.main-button__left:hover {
+  background-color: #76b123;
+}
 
 .main-button__left__img {
   margin: 12px 2px;
@@ -303,8 +307,15 @@ body {
   margin-left: 1155px;
   color: #000000;
   background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border: 1px solid #76A713;
   cursor: pointer;
 }
+
+.main-button__right:hover {
+  background-color: #76b123;
+}
+
 .main-button__right__img {
   margin: 10px 2px;
 }
