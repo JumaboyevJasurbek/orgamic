@@ -218,6 +218,12 @@ body {
   text-decoration: none;
 }
 
+.login-btn:hover {
+  color: #76a713;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
 .search-btn {
   display: inline-block;
   width: 40px;
@@ -348,10 +354,6 @@ body {
   color: #76A713;
 }
 
-.main__left__link {
-  margin-top: -400px;
-}
-
 .margin-right__img {
   width: 684px;
   height: 440px;
@@ -370,6 +372,12 @@ body {
   color: #ffffff;
   padding: 15px 38px;
 } 
+
+.main__left__link:hover {
+  color: #76A713;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
 
 .main-bottom {
   margin: 0;
@@ -559,6 +567,11 @@ body {
   margin: 0;
 }
 
+.categories {
+  background: #F8F8F8;
+  padding-top: 100px;
+}
+
 .categories-box__list {
   margin: 0;
   padding: 0;
@@ -616,7 +629,6 @@ body {
 
 .categories-button {
   margin-top: 27px;
-  background-color: #F8F8F8;
   border: none;
   border: 1px solid #76A713;
   width: 40px;
@@ -695,22 +707,313 @@ body {
   transition: all 0.3s ease;
 }
 
+.products {
+  padding: 0;
+  padding-top: 77px;
+  padding-bottom: 100px;
+  
+}
+
+.products__heading {
+  margin: 0;
+  margin-bottom: 46px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 150%;
+  color: #191D28;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product-top__list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.product-top__item {
+  margin-right: 10px;
+  padding: 5px 14px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #EBEBEB;
+  color: #000000;
+}
+
+.product-top__item:last-child {
+  margin-right: 0;
+}
+
+.product-top__item:hover {
+  background-color: #76A713;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.product-top__active {
+  background-color: #76A713;
+  color: #ffffff;
+}
+
+.product-list {
+  padding: 0;
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.product-list:last-child {
+  margin-bottom: 0;
+}
+
+.product-item {
+  border: 1px solid #DDDDDD;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.product-item:hover {
+  box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.product-item__active {
+  box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-item__top-section {
+  border-left: 2px solid #DDDDDD;
+  border-top: 2px solid #DDDDDD;
+  border-right: 2px solid #DDDDDD;
+}
+
+.product-item__top-section:hover {
+  border-left: 2px solid #76A713;
+  border-top: 2px solid #76A713;
+  border-right: 2px solid #76A713;
+  transition: all 0.3s ease
+}
+
+.product-item__active-img {
+  border-left: 2px solid #76A713;
+  border-top: 2px solid #76A713;
+  border-right: 2px solid #76A713;
+}
+
+.product-item__heading {
+  margin-bottom: 10px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.product-item__text {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #76A713;
+}
+
+.product-item__position {
+  margin-top: 10px;
+}
+
+.product-item__star {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+}
+
+.product-item__link {
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 11px 18px;
+  background-color:#76A713;
+  color: #FFFFFF;
+}
+
+.product-item__link:hover {
+  color:#76A713;
+  background-color: #F8F8F8;
+  box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.blackberry {
+  margin: 0;
+  padding: 0;
+  padding: 70px 39px;
+  width: 370px;
+  height: 340px;
+}
+
+.avocado {
+  margin: 0;
+  padding: 0;
+  padding: 81px 62px;
+  width: 370px;
+  height: 340px;
+}
+
+.kiwi {
+  margin: 0;
+  padding: 0;
+  padding: 32px 44px;
+  width: 370px;
+  height: 340px;
+}
+
+.lemon {
+  margin: 0;
+  padding: 0;
+  padding: 120px 34px;
+  width: 370px;
+  height: 340px;
+}
+
+.product-item__bottom-box {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 370px;
+  height: 213px;
+  background: #F8F8F8;
+}
+.feature-box {
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.feature__left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+  width: 50%;
+  height: 300px;
+  background-color: #76A713;
+  background-image: url(./../images/blueprint.png);
+  background-repeat: no-repeat;
+}
+
+.future__left-section {
+  padding: 0;
+  margin: 0;
+}
+
+.feature__left-text {
+  width: 196px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.feature__left-heading {
+  width: 207px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.feature__left-link {
+  width: 110px;
+  height: 40px;
+  padding: 11px 19px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: bold;
+  background-color: #FF6600;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.feature__left-link:hover {
+  color: #FF6600;
+  background-color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.feature__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+  width: 50%;
+  height: 300px;
+  background-color: #FF6600;
+  background-image: url(./../images/fruits-vegetables.png);
+  background-repeat: no-repeat;
+}
+
+.future__right-section {
+}
+
+.feature__right-text {
+  width: 165px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.feature__right-heading {
+  width: 196px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
 
 
+.feature__right-link {
+  width: 110px;
+  height: 40px;
+  padding: 11px 19px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #76A713;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.feature__right-link:hover {
+  color: #76A713;
+  background-color: #FFFFFF;
+  transition: all 0.3s ease;
+}
 
