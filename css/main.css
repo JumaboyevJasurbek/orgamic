@@ -868,12 +868,18 @@ body {
   display: inline-block;
 }
 
-.product-item__link {
+.link{
   margin-top: 30px;
   text-decoration: none;
   padding: 11px 18px;
   background-color:#76A713;
   color: #FFFFFF;
+}
+
+.link:hover {
+  background-color: #ffffff;
+  color: #76A713;
+  transition: all 0.3s ease ;
 }
 
 .product-item__link:hover {
@@ -890,6 +896,11 @@ body {
   width: 370px;
   height: 340px;
 }
+
+/* .product-item__img-link {
+  padding: 70px 39px;
+  
+} */
 
 .avocado {
   margin: 0;
@@ -997,10 +1008,6 @@ body {
   background-image: url(./../images/fruits-vegetables.png);
   background-repeat: no-repeat;
 }
-
-.future__right-section {
-}
-
 .feature__right-text {
   width: 165px;
   font-family: 'Gilroy';
@@ -1042,6 +1049,71 @@ body {
   transition: all 0.3s ease;
 }
 
+.featured-product__top-img {
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+}
+
+.featured-product__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.featured-product__list:last-child {
+  margin-right: 0;
+}
+
+.featured-product__item {
+  width: 370px;
+}
+
+.product__item-active {
+  box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
+}
+
+.featured-product__item:hover {
+  box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.featured-product__top {
+  height: 370px;
+  border-left: 2px solid #DDDDDD;
+  border-top: 2px solid #DDDDDD;
+  border-right: 2px solid #DDDDDD;
+}
+
+
+.featured-product__top:hover {
+  border-top: 2px solid #76A713;
+  border-right: 2px solid #76A713;
+  border-left: 2px solid #76A713;
+  transition: all 0.3s ease;
+}
+
+.featured-img {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.feature-product__active {
+  height: 370px;
+  background: #FFFFFF;
+  border-top: 2px solid #76A713;
+  border-right: 2px solid #76A713;
+  border-left: 2px solid #76A713;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
+}
+
+.featured__icon:first-child {
+  margin-top: 20px;
+}
+
 .featured-product__heading {
   font-family: 'Oswald';
   font-style: normal;
@@ -1053,19 +1125,89 @@ body {
   color: #191D28;
 }
 
-.featured-product__list {
-  list-style: none;
-}
 
 .featured__icon {
   display: flex;
   flex-direction: column;
-}
-
-.featured__icon {
+  margin-left: 310px;
   margin-bottom: 10px;
 }
 
 .featured__icon:last-child {
   margin-bottom: 0;
+}
+
+.featured__img-papper {
+  margin-top: -130px;
+  margin-left: 90px;
+}
+
+.featured__img-tomato {
+  width: 210px;
+  height: 197px;
+  margin-top: -130px;
+  margin-left: 100px;
+}
+
+.featured-product__bottom {
+  height: 213px;
+  background: #F8F8F8;
+  text-align: center;
+}
+
+.feature-product__heading {
+  margin: 0;
+  padding-top: 21px;
+  padding-bottom: 10px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.feature-product__price {
+  margin: 0;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #76A713;
+}
+
+.feature-product__star {
+  margin-bottom: 30px;
+}
+
+.feature-product__link {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+}
+
+.featured-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 15 13px;
+}
+
+.featured-left-button {
+  margin-right: 15px;
+  border: none;
+  border: 1px solid #76A713;
+  cursor: pointer;
+  background-color: #76A713;
+  color: #ffffff;
+}
+
+.featured-right-button {
+  border: none;
+  border: 1px solid #76A713;
+  cursor: pointer;
 }
