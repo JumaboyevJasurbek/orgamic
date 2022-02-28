@@ -1,0 +1,66 @@
+.funfact {
+    margin-top: 100px;
+    margin-bottom: -120px;
+  }
+  
+  .funfact__section {
+    background-color: #76a713;
+    background-image: url(./../images/funfact-bg.png);
+    background-repeat: no-repeat;
+    height: 291px;
+  }
+  
+  .funfact__list {
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    list-style: none;
+    color: #ffffff;
+  }
+  
+  .funfakt__heading {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 78px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  
+  .funfakt__span {
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  
+  
+  
+  .testimonials {
+    display: flex;
+  }
+  
+  .testimonials__bg {
+    width: 100%;
+    min-width: 1111px;
+    height: 740px;
+    background-image: linear-gradient(to right, white 60%, rgba(118, 167, 19, 0.3)40%);
+    z-index: -1;
+  } 
+  
+  
+  .testimonials__left {
+    margin-top: 200px;
+    width:40%;
+    height: 540px;
+    background-color: #ff6600;
+  }
+  
+  .testimonials__left-img {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 165px;
+  }

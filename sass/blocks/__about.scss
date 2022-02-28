@@ -1,0 +1,99 @@
+.about {
+    padding-top: 200px;
+    padding-bottom: 105px;
+}
+
+.about__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    
+}
+
+.about__left-box {
+    display: flex;
+}
+
+.img-about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22px;
+    margin-right: 28px;
+}
+
+.img-about__span {
+    margin-top: 30px;
+    margin-right: 25px;
+    padding: 11px 62px;
+    color: #76A713;
+    border: 1.5px dashed rgba(118, 167, 19, 0.5);
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+}
+
+.about__heading {
+    width: 517px;
+    margin: 0;
+    margin-top: -23px;
+    margin-bottom: 20px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    text-transform: uppercase;
+    color: #191D28;
+}
+
+.about__text {
+    width: 570px;
+    margin-bottom: 25px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #888888;
+}
+
+
+.about__text-other {
+    display: flex;
+    width: 468px;
+    height: 100%;
+    margin: 0;
+    font-family: 'Gilroy';
+    font-style: italic;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    height: 56px; 
+    color: #aaaaaa; 
+    background-image: url(./../images/blockquote.png);
+    background-repeat: no-repeat;
+    background-position: 380px 30px;
+}
+
+.about__span-line {
+    display: inline-block;
+    width: 1px;
+    height: 35px;
+    margin-top: 6px;
+    margin-right: 20px;
+    background-color: #76A713;
+}
+
+.right-box__name {
+    margin-top: 14px;
+    margin-bottom: 3px;
+}
+
+.right-box__profession {
+    margin: 0;
+}

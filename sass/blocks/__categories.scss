@@ -1,0 +1,139 @@
+.categories {
+    background: #F8F8F8;
+    padding-top: 100px;
+  }
+  
+  .categories-box__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  .categories-box__item {
+    margin-right: 30px;
+    width: 270px;
+    height: 354px;
+    text-align: center;
+    background-color: #F8F8F8;
+    border: 1px solid #76A713;
+  }
+  
+  .categories-box__item:hover {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    transition: all 0.3s ease;
+  }
+  
+  .categories-box {
+    margin-bottom: 100px;
+  }
+  
+  .categories-box__item:last-child {
+    margin-right: 0;
+  }
+  
+  .categories-heading {
+    margin: 0 auto;
+    margin-top: 156px;
+    margin-bottom: 13px;
+    width: 137px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #76A713;
+  }
+  
+  .categories-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 223px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%; 
+    color: #888888;
+  }
+  
+  .categories-button {
+    margin-top: 27px;
+    border: none;
+    border: 1px solid #76A713;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .categories-button:hover {
+    background-color: #ffffff;
+    border: none;
+    border: 1px solid #cccccc;
+  }
+  
+  .button__img {
+    margin-top: 27px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  .categories-vegitables {
+    background-image: url(./../images/garlic-tomato.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 130px;
+    background-position: 40px 20px;
+  }
+  
+  .categories-fresh {
+    background-image: url(./../images/strawberry.png);
+    background-repeat: no-repeat;
+    background-position: 60px 20px;
+  }
+  
+  .categories-eggpent {
+    background-image: url(./../images/eggplant.png);
+    background-repeat: no-repeat;
+    background-position: 35px 20px;
+  }
+  
+  .categories-tomato {
+    background-image: url(./../images/tomato.png);
+    background-repeat: no-repeat;
+    background-position: 80px 30px;
+  }
+  
+  
+  .active-box__item {
+    text-align: center;
+    width: 270px;
+    height: 354px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  
+  .active-heading {
+    color: #76A713;
+  }
+  
+  .active-text {
+    color: #888888;
+  }
+  
+  .active-button {
+    margin-top: 27px;
+    width: 120px;
+    height: 40px;
+    background: #76A713;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .active-button:hover {
+    color: #76A713;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    transition: all 0.3s ease;
+  }

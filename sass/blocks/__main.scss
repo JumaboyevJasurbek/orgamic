@@ -1,71 +1,192 @@
-/* oswald-regular - latin */
-@font-face {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/oswald-v41-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/oswald-v41-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* oswald-500 - latin */
-@font-face {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 500;
-    src: url("../fonts/oswald-v41-latin-500.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/oswald-v41-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-@font-face {
-    font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
-    url("../fonts/Gilroy-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
-    url("../fonts/Gilroy-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Bold.woff2") format("woff2"),
-    url("../fonts/Gilroy-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
-html {
-    height: 100%;
-}
-
-body {
+.main {
+    padding-top: 100px;
+    padding-bottom: 178px;
+    background-color: rgba(118, 167, 19, 0.31);
+  }
+  
+  .main-button__left {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    font-family: "Gilroy", "Arial", sans-serif;
-}
-
-.container {
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
+    align-self: center;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 130px;
+    margin-left: -80px;
+    background-color: #76A713;
+    cursor: pointer;
+  }
+  
+  .main-button__left:hover {
+    background-color: #76b123;
+  }
+  
+  .main-button__left__img {
+    margin: 12px 2px;
+  }
+  
+  .main-button__right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    margin-top: -148px;
+    margin-left: 1155px;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border: 1px solid #76A713;
+    cursor: pointer;
+  }
+  
+  .main-button__right:hover {
+    background-color: #76b123;
+  }
+  
+  .main-button__right__img {
+    margin: 10px 2px;
+  }
+  
+  .main-top {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main__left {
+    width: 473px;
+    margin-top: 80px;
+  }
+  
+  .main-left__heading {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 74px;
+    text-transform: uppercase;
+    width: 473px;
+  }
+  
+  .main-left__span {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #76A713;
+  }
+  
+  .margin-right__img {
+    width: 684px;
+    height: 440px;
+  }
+  
+  .main-right__logo-name {
+    margin-top: 60px;
+    margin-left: -120px;
+  }
+  
+  .main__left__link {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #76A713;
+    color: #ffffff;
+    padding: 15px 38px;
+  } 
+  
+  .main__left__link:hover {
+    color: #76A713;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .main-bottom {
+    margin: 0;
+    margin-top: 117px;
+    margin-bottom: -300px;
+    
+  }
+  
+  .main-bottom__box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding-right: 30px;
+    padding-left: 60px;
+  }
+  
+  .main-bottom__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  } 
+  
+  .span-line {
+    width: 1px;
+    height: 50px;
+    background-color: #dddddd;
+    margin-left: -100px;
+  }
+  
+  .main-bottom__heading {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+  }
+  
+  .main-bottom__text {
+    margin-top: 6px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666
+  }
+  
+  .box-free::before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/free-shipping.png);
+    width: 60px;
+    height: 41px;
+    margin-left: -80px;
+    background-repeat: no-repeat;
+  }
+  
+  .box-ruturns::before {
+    content: '';
+    position: absolute;
+    background-image: url(./../images/day-returns.png);
+    width: 60px;
+    height: 60px;
+    margin-left: -80px;
+    background-repeat: no-repeat;
+  }
+  
+  .box-fresh::before {
+    content: '';
+    position: absolute;
+    background-image: url(./../images/fresh.png);
+    width: 60px;
+    height: 55px;
+    margin-left: -80px;
+    background-repeat: no-repeat;
+  }
+  
+  .box-summer::before {
+    content: '';
+    position: absolute;
+    background-image: url(./../images/summer-offer.png);
+    width: 60px;
+    height: 60px;
+    margin-left: -80px;
+    background-repeat: no-repeat;
+  }
