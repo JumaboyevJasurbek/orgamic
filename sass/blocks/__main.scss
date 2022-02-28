@@ -2,9 +2,9 @@
     padding-top: 100px;
     padding-bottom: 178px;
     background-color: rgba(118, 167, 19, 0.31);
-  }
-  
-  .main-button__left {
+}
+
+.main-button__left {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -16,17 +16,17 @@
     margin-left: -80px;
     background-color: #76A713;
     cursor: pointer;
-  }
-  
-  .main-button__left:hover {
+}
+
+.main-button__left:hover {
     background-color: #76b123;
-  }
-  
-  .main-button__left__img {
+}
+
+.main-button__left__img {
     margin: 12px 2px;
-  }
-  
-  .main-button__right {
+}
+
+.main-button__right {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -40,28 +40,28 @@
     border: none;
     border: 1px solid #76A713;
     cursor: pointer;
-  }
-  
-  .main-button__right:hover {
+}
+
+.main-button__right:hover {
     background-color: #76b123;
-  }
-  
-  .main-button__right__img {
+}
+
+.main-button__right__img {
     margin: 10px 2px;
-  }
-  
-  .main-top {
+}
+
+.main-top {
     margin: 0;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .main__left {
+}
+
+.main__left {
     width: 473px;
     margin-top: 80px;
-  }
-  
-  .main-left__heading {
+}
+
+.main-left__heading {
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
@@ -69,79 +69,79 @@
     line-height: 74px;
     text-transform: uppercase;
     width: 473px;
-  }
-  
-  .main-left__span {
+}
+
+.main-left__span {
     margin: 0;
     text-transform: uppercase;
     font-size: 40px;
     color: #76A713;
-  }
-  
-  .margin-right__img {
+}
+
+.margin-right__img {
     width: 684px;
     height: 440px;
-  }
-  
-  .main-right__logo-name {
+}
+
+.main-right__logo-name {
     margin-top: 60px;
     margin-left: -120px;
-  }
-  
-  .main__left__link {
+}
+
+.main__left__link {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
     background-color: #76A713;
     color: #ffffff;
     padding: 15px 38px;
-  } 
-  
-  .main__left__link:hover {
+} 
+
+.main__left__link:hover {
     color: #76A713;
     background-color: #ffffff;
     transition: all 0.3s ease;
-  }
-  
-  .main-bottom {
+}
+
+.main-bottom {
     margin: 0;
     margin-top: 117px;
     margin-bottom: -300px;
     
-  }
-  
-  .main-bottom__box {
+}
+
+.main-bottom__box {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     padding-right: 30px;
     padding-left: 60px;
-  }
-  
-  .main-bottom__list {
+}
+
+.main-bottom__list {
     list-style: none;
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
     padding-bottom: 50px;
-  } 
-  
-  .span-line {
+} 
+
+.span-line {
     width: 1px;
     height: 50px;
     background-color: #dddddd;
     margin-left: -100px;
-  }
-  
-  .main-bottom__heading {
+}
+
+.main-bottom__heading {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     margin: 0;
-  }
-  
-  .main-bottom__text {
+}
+
+.main-bottom__text {
     margin-top: 6px;
     font-family: 'Gilroy';
     font-style: normal;
@@ -149,9 +149,9 @@
     font-size: 14px;
     line-height: 16px;
     color: #666666
-  }
-  
-  .box-free::before {
+}
+
+.box-free::before {
     content: '';
     position: absolute;
     background-image: url(../images/free-shipping.png);
@@ -159,9 +159,9 @@
     height: 41px;
     margin-left: -80px;
     background-repeat: no-repeat;
-  }
-  
-  .box-ruturns::before {
+}
+
+.box-ruturns::before {
     content: '';
     position: absolute;
     background-image: url(./../images/day-returns.png);
@@ -169,9 +169,9 @@
     height: 60px;
     margin-left: -80px;
     background-repeat: no-repeat;
-  }
-  
-  .box-fresh::before {
+}
+
+.box-fresh::before {
     content: '';
     position: absolute;
     background-image: url(./../images/fresh.png);
@@ -179,9 +179,9 @@
     height: 55px;
     margin-left: -80px;
     background-repeat: no-repeat;
-  }
-  
-  .box-summer::before {
+}
+
+.box-summer::before {
     content: '';
     position: absolute;
     background-image: url(./../images/summer-offer.png);
@@ -189,4 +189,4 @@
     height: 60px;
     margin-left: -80px;
     background-repeat: no-repeat;
-  }
+}
