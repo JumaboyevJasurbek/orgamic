@@ -1704,4 +1704,194 @@ template {
   margin-top: 6px;
   margin-left: 1px;
 }
+
+.lates {
+  padding-bottom: 400px;
+}
+
+.lates__heading {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lates__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lates__item {
+  margin-right: 27px;
+  border: 1px solid #DDDDDD;
+}
+
+.lates__item-active {
+  border: 1px solid #DDDDDD;
+  -webkit-box-shadow: 0px 16px 45px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 16px 45px rgba(0, 0, 0, 0.1);
+}
+
+.lates__item:hover {
+  -webkit-box-shadow: 0px 16px 45px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 16px 45px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.lates__item__meta-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lates__item__meta-list__admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lates__item__meta-list__admin::before {
+  content: "";
+  margin-right: 8px;
+  background-image: url(./../../images/admin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 12px;
+  height: 14px;
+}
+
+.lates__item__meta-list__services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lates__item__meta-list__services::before {
+  content: "";
+  margin-right: 8px;
+  background-image: url(./../../images/services.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 12px;
+  height: 14px;
+}
+
+.lates__item__meta-list__comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lates__item__meta-list__comment::before {
+  content: "";
+  margin-right: 8px;
+  background-image: url(./../../images/comment.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 12px;
+  height: 14px;
+}
+
+.lates__title {
+  width: 269px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  margin-left: 20px;
+}
+
+.lates__title-active {
+  color: #76A713;
+}
+
+.lates__title:hover {
+  color: #76A713;
+}
+
+.lates__line {
+  display: inline-block;
+  margin: 0;
+  margin-top: 1px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  width: 330px;
+  border-top: 1px solid #dddddd;
+}
+
+.lates__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 150%;
+  padding: 20px;
+}
+
+.lates__data {
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lates__data::before {
+  content: "";
+  background-image: url(./../../images/kalendar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13px;
+  height: 14px;
+  margin-right: 11px;
+}
+
+.lates__more {
+  font-size: 13px;
+  color: #76A713;
+}
 /*# sourceMappingURL=main.css.map */
