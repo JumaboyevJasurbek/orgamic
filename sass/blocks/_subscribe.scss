@@ -1,0 +1,76 @@
+.subscribe {
+    &__bg {
+        height: 250px;
+        background-color: #76A713;
+        background-image: url(./../../images/subscribe-arrow.png);
+        background-repeat: no-repeat;
+        background-size: 70px;
+        background-position: 395px 110px;
+    }
+    
+    &__img {
+        margin-top: -120px;
+        margin-left: -60px;
+    }
+    
+    &__heading {
+        display: inline-block;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 110px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 89px;
+        color: #FFFFFF;
+    }
+
+    &__form {
+        display: inline-block;
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 110px;
+    }
+    
+    &__address {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(255, 255, 255, 0.6);
+        border: none;
+        outline: none;
+    }
+
+    &__button {
+        text-transform: uppercase;
+        padding: 10px 12px 11px 12px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+        background: #FF6600;
+        border: none;
+        margin-left: 226px;
+        &:hover {
+            color: #FF6600;
+            background: #ffffff;
+            transition: all 0.3s ease;
+        }
+    }
+
+    
+    &__form-span {
+        display: flex;
+        width: 370px;
+        height: 1px;
+        border-top: 1px solid #9AD523;
+    }
+    
+    
+}

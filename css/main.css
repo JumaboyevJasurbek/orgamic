@@ -1706,7 +1706,11 @@ template {
 }
 
 .lates {
-  padding-bottom: 400px;
+  padding-bottom: 108px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .lates__heading {
@@ -1717,6 +1721,12 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #191D28;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 150%;
 }
 
 .lates__list {
@@ -1734,6 +1744,10 @@ template {
 .lates__item {
   margin-right: 27px;
   border: 1px solid #DDDDDD;
+}
+
+.lates__item:last-child {
+  margin-right: 0;
 }
 
 .lates__item-active {
@@ -1844,6 +1858,8 @@ template {
 
 .lates__title:hover {
   color: #76A713;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .lates__line {
@@ -1893,5 +1909,81 @@ template {
 .lates__more {
   font-size: 13px;
   color: #76A713;
+}
+
+.subscribe__bg {
+  height: 250px;
+  background-color: #76A713;
+  background-image: url(./../../images/subscribe-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: 395px 110px;
+}
+
+.subscribe__img {
+  margin-top: -120px;
+  margin-left: -60px;
+}
+
+.subscribe__heading {
+  display: inline-block;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 110px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  color: #FFFFFF;
+}
+
+.subscribe__form {
+  display: inline-block;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 110px;
+}
+
+.subscribe__address {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+}
+
+.subscribe__button {
+  text-transform: uppercase;
+  padding: 10px 12px 11px 12px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #FF6600;
+  border: none;
+  margin-left: 226px;
+}
+
+.subscribe__button:hover {
+  color: #FF6600;
+  background: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.subscribe__form-span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 370px;
+  height: 1px;
+  border-top: 1px solid #9AD523;
 }
 /*# sourceMappingURL=main.css.map */
