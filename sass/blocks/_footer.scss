@@ -1,0 +1,277 @@
+.footer {
+    min-width: 1260px;
+    background: #191D28;
+    margin-top: -130px;
+    z-index: -1;
+    &__section {
+        min-width: 1091px;
+        min-height: 682px;
+        margin: 0;
+        margin-top: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    &__left-section {
+        width: 250px;
+    }
+    
+    &__text {
+        text-align: left;
+        width: 270px;
+        margin-top: 25px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #CCCCCC;
+    }
+    
+    &__socials-list {
+        padding: 0;
+        margin-top: 30px;
+        padding-right: 90px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__quick-item-link {
+        display: flex;
+        justify-content: flex-start;
+        color: #CCCCCC;
+        text-decoration: none;
+        
+        &__active {
+            color: #76A713;
+        }
+        
+        &:hover {
+            color: #76A713;
+            transition: all 0.3s ease;
+        }
+        
+        &__heading {
+            color: #ffffff;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            margin-top: -5px;
+        }
+        
+        &::before {
+            content: "";
+            margin-top: 10px;
+            margin-right: 10px;
+            display: flex;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #76A713;
+        }
+    }
+    
+    
+    &__link-item {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        list-style: none;
+        margin-bottom: 20px;
+        
+        &__heading {
+            list-style: none;
+        }
+    }
+    
+    
+    
+    &__blog-list {
+        list-style: none;
+    }
+    
+    &__blog-item {
+        margin-bottom: 14px;
+        display: flex;
+        
+        &::before {
+            margin-right: 20px;
+        }
+        
+        &__st {
+            &::before {
+                content: "";
+                display: flex;
+                background-image: url(./../../images/footer-st.png);
+                background-repeat: no-repeat;
+                min-width: 142px;
+                height: 95px;
+            }
+            
+        }
+        &__nd{
+            &::before {
+                content: "";
+                display: flex;
+                background-image: url(./../../images/footer-nd.png);
+                background-repeat: no-repeat;
+                min-width: 142px;
+                height: 95px;
+            }
+        }
+        
+        &__rd{
+            &::before {
+                content: "";
+                display: flex;
+                background-image: url(./../../images/footer-rd.png);
+                background-repeat: no-repeat;
+                min-width: 142px;
+                height: 95px;
+            }
+            height: 95px;
+        }
+        
+        &__name {
+            margin: 0;
+            padding: 0;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            color: #FFFFFF;
+            
+            &__st {
+                width: 184px;
+            }
+            
+            &__nd {
+                width: 154px;
+            }
+            
+            &__rd {
+                width: 162px;
+            }
+        }
+        
+        &__span {
+            margin-top: 14px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #CCCCCC;
+            display: block;
+        }
+    }
+    &__blog-heading {
+        margin-top: -5px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+    }
+    
+    &__officeal-list {
+        list-style: none;
+    }
+    
+    &__officeal-item {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #CCCCCC;
+        
+        &__st {
+            margin-bottom: 22px;
+            width: 183px;
+            display: flex;
+            
+            &::before {
+                content: "";
+                display: flex;
+                margin-top: 5px;
+                margin-right: 5px;
+                background-image: url(./../../images/location.png);
+                background-repeat: no-repeat;
+                width: 35px;
+                height: 25px;
+            }
+        }
+        
+        &__nd {
+            width: 155px;
+            display: flex;
+            &::before {
+                content: "";
+                display: flex;
+                margin-right: 10px;
+                margin-top: 5px;
+                background-image: url(./../../images/phone.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 15px;
+                height: 15px;
+            }
+            
+        }
+        
+        &__rd {
+            width: 188px;
+            margin-top: 15px;
+        }
+        
+        
+        &__heading {
+            margin-bottom: 34px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+        
+        &__other-heading {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+    }
+    
+    &__bottom-span {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 86px;
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    &__bottom-text {
+        margin: 0;
+        margin-top: 36px;
+        text-align: center;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #CCCCCC;
+    }
+}
